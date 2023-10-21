@@ -1,0 +1,132 @@
+nav{
+    margin: 20px 0px;
+}
+
+.white-font{
+    color: white;
+}
+
+body{
+    background-color: #008FBC;
+}
+
+.nav-link{
+    margin-right: 30px;
+}
+
+hr{
+    height: 0px;
+    border: none;
+    opacity: 1;
+    border-top: 3px solid white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.course-content{
+    aspect-ratio: 1 / 1;
+    padding: 20px;
+}
+
+.header-margin{
+    margin: 40px 0px;
+}
+
+.company-content{
+    aspect-ratio: 1 / 0.4;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card-img-top{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 40px 0px;
+  }
+
+.bg-image{
+    background-image: url('Group\ 1.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        /* Reset some default styles for the button and input */
+        button, input {
+            border: none;
+            outline: none;
+        }
+        
+        /* Style the search container */
+        .search-container {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        /* Style the search input */
+        .search-input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+        }
+        
+        /* Style the search button and icon */
+        .search-button {
+            background-color: white;
+            color: #000000;
+            padding: 1px 15px;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        
+        /* Style the search icon inside the button */
+        .search-button i {
+            font-size: 20px;
+        }
+@media screen and (max-width: 991px ) {
+    .img-fluid{
+        display: none;
+    }
+    .cust-col {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .split{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .row-sl{
+        display: none;
+    }
+}
+

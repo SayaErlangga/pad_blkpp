@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Search Bar</title>
+    <style>
+        /* Reset some default styles for the button and input */
+        body{
+            background-color: #007bff;
+        }
+button, input {
+    border: none;
+    outline: none;
+}
+
+/* Style the search container */
+.search-container {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Style the search input */
+.search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+/* Style the search button and icon */
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Style the search icon inside the button */
+.search-button i {
+    font-size: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button class="search-button">
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+</body>
+</html>
